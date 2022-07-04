@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: slategrey;
+}
+
+/*CABEÇALHO*/
+.central {
+    background-color: aliceblue;
+    margin: 2em;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    padding: 10em;
+    box-shadow: 10px 10px 10px 5px black;
+    text-align: justify;
+}
+
+.img-curriculo {
+    width: 16em;
+    height: 16em;
+    position: relative;
+    bottom: 10em;
+    right: 10em;
+    background-color: black;
+    border-radius: 500px;
+    margin: 1em;
+}
+
+.cabeçalho h1{
+     position: relative;
+     bottom: 13em;
+     left: 4em;
+}
+
+.cabeçalho p{
+    position: relative;
+    bottom: 25em;
+    left: 10em;
+}
+
+.gmail {
+    position: relative;
+    bottom: 29.3em;
+    left: 28em;
+}
+
+/* EXPERIENCIA */
+.Experiencia {
+    position: relative;
+    bottom: 18em;
+}
+
+.titulo-p{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+/*CONHECIMENTO*/
+.Conhecimento {
+    position: relative;
+    bottom: 14em;
+}
+
+.Conhecimento div {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+/*EXPERIENCIA */
+.Experiencia-fora {
+    position: relative;
+    bottom: 10em;
+}
+
+.ex-fora {
+    font-size: 1.5em;
+    font-weight: 600;
+}
